@@ -1,0 +1,77 @@
+/*Variables*/
+:root {
+    --whitesmoke: whitesmoke;
+    --steelblue: steelblue;
+    --mintcream: mintcream;
+    --headerlight: #b2b4b1;
+    --headerdark: #445c68;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--steelblue);
+    font-family: 'Times New Roman', Times, serif;
+    
+
+}
+
+/*Link decoration start*/
+a:link, a:visited {
+    color: var(--whitesmoke);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--steelblue);
+}
+/*Link decoration end*/
+
+header {
+    color: var(--whitesmoke);
+    background-image: url("./images/header-img.jpg");
+    height: 10%;
+    background-position: center;
+    position: relative;
+    padding: 3%;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 15px solid var(--steelblue);
+}
+header ul li {
+    padding: 1.5%;
+    float: left;
+    font-weight: bold;
+    margin: auto;
+    display: inline;
+    font-size: xx-large;
+}
+
+.title {
+    color: black;
+    text-decoration: underline var(--steelblue);
+}
+
+div h1 {
+    margin: auto;
+    text-align: center;
+    text-decoration: underline;
+    padding: 15% 2%;
+}
+
+#my-face {
+    float: both;
+    margin: 0 33%;
+}
+
+section {
+    display: grid;
+}
+#About-Me {
+    height: 1500px;
+    display: grid;
+}
