@@ -11,13 +11,13 @@
     margin: 0;
     padding: 0;
 }
-
+/*Body start*/
 body {
-    color: var(--steelblue);
+    color: var(--headerlight);
     font-family: 'Times New Roman', Times, serif;
-    
-
+    background-color: var(--headerdark)
 }
+/*Body end*/
 
 /*Link decoration start*/
 a:link, a:visited {
@@ -52,20 +52,18 @@ header ul li {
 }
 
 .title {
-    color: black;
-    text-decoration: underline var(--steelblue);
-}
-
-div h1 {
-    margin: auto;
-    text-align: center;
-    text-decoration: underline;
-    padding: 15% 2%;
+    color: var(--whitesmoke);
+    
 }
 
 #my-face {
-    float: both;
-    margin: 0 33%;
+    margin: auto;
+    text-align: center;
+    padding: 15% 2% 0% 2%;
+}
+#my-face img {
+    border: 5px solid var(--steelblue);
+
 }
 
 section {
